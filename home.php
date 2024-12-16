@@ -129,7 +129,7 @@
                                         <span data-animation="fadeInRight" data-delay=".2s">Treasure Every Occasion</span>
                                         <h1 data-animation="fadeInUp" data-delay=".5s">Handmade Treasure Store</h1>
                                         <div class="slide-btn">
-                                            <a class="btn theme-btn" href="shop.html" data-animation="fadeInLeft" data-delay=".7s">shop now</a>
+                                            <a class="btn theme-btn" href="#brandnewshopnow" data-animation="fadeInLeft" data-delay=".7s">shop now</a>
                                             <a class="btn white-btn" href="login/signup-seller.php" data-animation="fadeInRight" data-delay=".9s">start selling</a>
                                         </div>
                                     </div>
@@ -194,7 +194,7 @@
         ?>
 
 <!-- brandnew products-area start -->
-<section class="product-area box-90 pt-45 pb-40">
+<section class="product-area box-90 pt-45 pb-40" id="brandnewshopnow">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-5 col-lg-12">
