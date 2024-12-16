@@ -42,7 +42,7 @@ function sendEmailVerification($userEmail, $token)
 
     <body>
       <div class="wrapper">
-        <a href="http://localhost/myecom/verifySellerEmail.php?token=' . $token . '" style="color: #107869; background: white; border: 1px solid #107869; border-radius: 2px; ">Verify Email!</a>
+        <a href="http://handmadetreasurestore.shop/verifySellerEmail.php?token=' . $token . '" style="color: #107869; background: white; border: 1px solid #107869; border-radius: 2px; ">Verify Email!</a>
     </body>
 
     </html>';
@@ -62,5 +62,3 @@ function sendEmailVerification($userEmail, $token)
         return false;
     }
 }
-//<a href="https://wmsuphsi.online/verify_email.php?token=' . $token . '" style="color: #107869; background: white; border: 1px solid #107869; border-radius: 2px; ">Verify Email!</a></div>
-//<a href="http://localhost/wmsuphsi-main/verify_email.php?token=' . $token . '" style="color: #107869; background: white; border: 1px solid #107869; border-radius: 2px; ">Verify Email!</a>
