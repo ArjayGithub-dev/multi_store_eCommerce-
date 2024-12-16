@@ -37,8 +37,8 @@ for ($i = 0; $i < count($product_names); $i++) {
 // Create a new Stripe Checkout session with customer details
 $checkout_session = \Stripe\Checkout\Session::create([
     "mode" => "payment",
-    "success_url" => "http://localhost/handmade_treasure_store-main/success.php?session_id={CHECKOUT_SESSION_ID}",
-    "cancel_url" => "http://localhost/handmade_treasure_store-main/home.php",
+    "success_url" => "http://handmadetreasurestore.shop/success.php?session_id={CHECKOUT_SESSION_ID}",
+    "cancel_url" => "http://handmadetreasurestore.shop/home.php",
     "locale" => "auto",
     "line_items" => $line_items,
     'metadata' => [

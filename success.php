@@ -79,6 +79,6 @@ if (isset($_GET['session_id'])) {
         exit; // Make sure to exit after redirect
     }
 }
-
+    
 ?>
     
